@@ -1,0 +1,181 @@
+
+body {
+  margin: 				0;
+
+/* background image*/
+  background-image: url('images/bgimage.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
+/* Navigation  */
+.nav {
+  overflow: 			hidden;
+  background-color: 	white;
+  position:				absolute;
+  position: 			-webkit-sticky; /* Safari */
+  position: 			sticky;
+  top: 					0;
+}
+
+.nav a {
+
+  float: 				left;
+  color: 				#212121;
+  text-align: 			center;
+  padding: 				14px 16px;
+  text-decoration: 		none;
+  font-size: 			17px;
+}
+
+.nav a:hover {
+  background-color:		#484646;
+  color: 				white;
+}
+
+.nav a.active {
+  background-color:		gainsboro;
+  color:				#212121 ;
+}
+
+.nav p{
+	float: right;
+	padding-right: 20px;
+}
+
+
+/*  Image Overlays with text   */
+
+.block {
+	width:       33.3%;
+	float:       left;
+	text-align:  center;
+	margin-top:  110px;
+}
+
+.block h3{
+  margin:      50px;
+  font-family:  verdana;
+}
+
+.image {
+ 
+  width: 40%;
+  height: 40%;
+
+}
+
+.overlay1 {
+  position: absolute;
+  top: 180px;
+  left: 2%;
+  width: 33.3%;
+  float: left;
+  
+  border-radius: 10%;
+  
+
+  overflow: hidden;
+  
+  width: 400px;
+  height: 400px;
+
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+
+  background-color: white;
+
+}
+
+.overlay2 {
+  position: absolute;
+  top: 180px;
+  left: 36%;
+  width: 33.3%;
+  float: left;
+  
+  border-radius: 10%;
+  
+
+  overflow: hidden;
+  
+  width: 400px;
+  height: 400px;
+
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+
+  background-color: white;
+
+}
+
+.overlay3 {
+  position: absolute;
+  top: 180px;
+  left: 69%;
+  width: 33.3%;
+  float: left;
+  
+  border-radius: 10%;
+  
+
+  overflow: hidden;
+  
+  width: 400px;
+  height: 400px;
+
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+
+  background-color: white;
+
+}
+
+.block:hover .overlay1 {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.block:hover .overlay2 {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.block:hover .overlay3 {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text {
+  margin-left: 100px;
+  margin-top: 110px;
+
+  color: black;
+  font-size: 18px;
+  position: relative;
+  top: 20%;
+  left:20%;
+
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+  font-family:  verdana;
+}
+
+
+
+
